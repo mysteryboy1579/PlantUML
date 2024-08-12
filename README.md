@@ -1,4 +1,4 @@
-@startuml ../../../../../../../../../../../../../../../../image.png
+@startuml ../../../../../../../../../../../../../../../../tmp/image.png
 Alice->Bob: Authentication Request
 Bob-->Alice: Authentication Response
 @enduml
