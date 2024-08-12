@@ -1,1 +1,3 @@
-# PlantUML
+@startuml
+version
+@enduml
