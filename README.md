@@ -1,6 +1,6 @@
 @startuml
 actor Bob [[http://plantuml.com/sequenceccccc]]
-actor "This is [[data://plantuml.com/sequence2222 Alice]] actor" as Alice
+actor "This is [[javascript://plantuml.com/sequence2222 Alice]] actor" as Alice
 Bob -> Alice [[http://plantuml.com/start]] : hello
 note left [[http://plantuml.com/start]]
   a note with a link
