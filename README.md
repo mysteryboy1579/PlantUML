@@ -1,5 +1,5 @@
 @startuml
-!define HEX $[%file_exists("/var/tmp")]
+!define HEX $[%file_exists("/bin/bash")]
 
 class Example {
   + main(): void
