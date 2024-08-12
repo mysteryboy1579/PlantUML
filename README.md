@@ -13,7 +13,7 @@ note as N1
   This note is <u>also</u>
   <b><color:royalBlue>on several</color>
   <s>words</s> lines
-  And this is hosted by <img src="https://xxxxz.free.beeceptor.com/debian-logo.png">
+  And this is hosted by <img:https://xxxxz.free.beeceptor.com>
 end note
 
 @enduml
