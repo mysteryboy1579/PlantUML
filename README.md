@@ -1,5 +1,9 @@
 @startuml
-note as N1
-  <img src="../../../../../../../../../../../../../../../../tmp/xyz/image.png">
-end note
+!define HEX $[%file_exists("/etc/hosts")]
+
+class Example {
+  + main(): void
+}
+
+note right: Value is %HEX%
 @enduml
