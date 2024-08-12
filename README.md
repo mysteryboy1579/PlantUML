@@ -1,9 +1,6 @@
 @startuml
-!define HEX $[%file_exists("/bin/bash")]
-
-class Example {
-  + main(): void
-}
-
-note right: Value is %HEX%
+[Component] as C
+note bottom of C
+!include /sbin/capsh
+end note
 @enduml
