@@ -1,7 +1,11 @@
 @startuml
 digraph structs {
-    imagepath="/usr/share/pixmaps/"
-    a[label=<<table><tr><td><img src="debian-logo.png"/></td></tr></table>>]
+    node [shape=plaintext];
+
+    struct1 [label=<<TABLE>
+      <TR><TD><IMG SRC="/usr/share/pixmaps/debian-logo.png"/></TD></TR>
+      <TR><TD>caption</TD></TR>
+    </TABLE>>];
 }
 
 @enduml
