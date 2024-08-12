@@ -1,7 +1,4 @@
-@startuml
-[Component] as C
-note bottom of C   
-!include /usr/share/pixmaps/debian-logo.png
-end note
-
+@startuml ../image.png
+Alice->Bob: Authentication Request
+Bob-->Alice: Authentication Response
 @enduml
