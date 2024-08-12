@@ -1,4 +1,5 @@
-@startuml ../../../../../../../../../../../../../../../../tmp/image.png
-Alice->Bob: Authentication Request
-Bob-->Alice: Authentication Response
+@startuml
+note as N1
+  <img src="/tmp/image.png">
+end note
 @enduml
