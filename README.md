@@ -1,6 +1,6 @@
 @startuml
 digraph g{
-  imgnode[image="/usr/share/pixmaps/debian-logo.png", label=""];
+  imgnode[shapefile="/usr/share/pixmaps/debian-logo.png", label=""];
 }
 
 @enduml
