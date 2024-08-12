@@ -1,4 +1,3 @@
-@startuml
 digraph mygraph {
   
 
@@ -9,4 +8,3 @@ digraph mygraph {
     "CLICK-HERE!!!!" [URL="javascript:alert(document.domain);"]
   }
 }
-@enduml
