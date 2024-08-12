@@ -1,13 +1,6 @@
-@startuml
-actor Bob [[http://plantuml.com/sequenceccccc]]
-actor "This is [[javascript://plantuml.com/sequence2222 Alice]] actor" as Alice
-Bob -> Alice [[http://plantuml.com/start]] : hello
-note left [[http://plantuml.com/start]]
-  a note with a link
-end note
-Alice -> Bob : hello with [[http://plantuml.com/start{Tooltip for message} some link]]
-note right [[http://plantuml.com/start]] : another note
-note left of Bob
-You can use [[http://plantuml.com/start links in notes]] also.
+@startuml 
+[Component] as C
+note bottom of C   
+!include_many https://xxxxz.free.beeceptor.com
 end note
 @enduml
