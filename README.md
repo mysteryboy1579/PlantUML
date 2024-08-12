@@ -1,6 +1,4 @@
-@startuml 
-[Component] as C
-note bottom of C   
-!includeurl https://xxxxz.free.beeceptor.com
-end note
+@startuml
+!include https://xxxxz.free.beeceptor.com!TAG2
+Alice->Bob : hello
 @enduml
