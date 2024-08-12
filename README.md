@@ -1,5 +1,5 @@
 @startuml
 digraph Example {
-  A -> B [label="Link to Google" labelURL="javascript:alert(5);"]
+  A -> B [label="Link to Google" labelhref="javascript:alert(6);"]
 }
 @enduml
