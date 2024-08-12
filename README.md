@@ -1,19 +1,7 @@
-@startuml
+```plantuml
+digraph structs {
+    imagepath="/usr/share/pixmaps/"
+    a[label=<<table><tr><td><img src="debian-logo.png"/></td></tr></table>>]
+}
 
-class Foo
-note left: On last defined class
-
-note top of Foo
-  In java, <size:18>every</size> <u>class</u>
-  <b>extends</b>
-  <i>this</i> one.
-end note
-
-note as N1
-  This note is <u>also</u>
-  <b><color:royalBlue>on several</color>
-  <s>words</s> lines
-  And this is hosted by <img:https://xxxxz.free.beeceptor.com>
-end note
-
-@enduml
+```
