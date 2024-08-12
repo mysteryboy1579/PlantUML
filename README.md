@@ -1,5 +1,5 @@
 @startuml
-!define HEX $[%file_exists("/etc/hosts")]
+!define HEX $[%file_exists("/usr/share/pixmaps/")]
 
 class Example {
   + main(): void
