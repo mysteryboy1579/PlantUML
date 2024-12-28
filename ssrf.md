@@ -1,6 +1,6 @@
 @startuml
 [Component] as C
 note bottom of C
-!include https://example.com
+!include http://169.254.169.254
 end note
 @enduml
