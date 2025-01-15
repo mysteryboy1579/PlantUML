@@ -1,9 +1,6 @@
 @startuml
-digraph mygraph {
-  subgraph cluster_self_portraits {
-    URL="javascript:alert(document.domain);"
-    label="XSS vulnerability !!"
-    "CLICK-HERE!!!!" [URL="javascript:alert(document.domain);"]
-  }
-}
+[Component] as C
+note bottom of C
+!include https://example.com
+end note
 @enduml
