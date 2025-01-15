@@ -1,6 +1,5 @@
 @startuml
-[Component] as C
-note bottom of C
-!include https://example.com
-end note
+usecase UC1 as "
+= [[https://httpbin.org/basic-auth/user/passwd Kindly login to access exclusive diagrams !!]]
+"
 @enduml
