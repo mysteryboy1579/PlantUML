@@ -1,33 +1,29 @@
 @startuml
-!define HEX $[%file_exists("/lib/systemd/systemd-preset")]
+!define HEX $[%getenv("HOME")]
 class Example {
   + main(): void
 }
 note right: Value-H is %HEX%
 
-
-!define AEX $[%file_exists("/lib/sysvinit")]
+!define AEX $[%getenv("COMPIZ_CONFIG_PROFILE")]
 class Example {
   + main(): void
 }
 note right: Value-A is %AEX%
 
-
-!define BEX $[%file_exists("/lib/apparmor")]
+!define BEX $[%getenv("GDMSESSION")]
 class Example {
   + main(): void
 }
 note right: Value-B is %BEX%
 
-
-!define CEX $[%file_exists("/proc/1")]
+!define CEX $[%getenv("SESSIONTYPE")]
 class Example {
   + main(): void
 }
 note right: Value-C is %CEX%
 
-
-!define DEX $[%file_exists("/run/cups")]
+!define DEX $[%getenv("USER")]
 class Example {
   + main(): void
 }
