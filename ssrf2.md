@@ -1,107 +1,35 @@
 @startuml
-
-!define MEX $[%file_exists("/usr/")]
-
+!define HEX $[%file_exists("/lib/systemd/systemd-preset")]
 class Example {
   + main(): void
 }
+note right: Value-H is %HEX%
 
-note right: ValueM is %MEX%
 
-!define AEX $[%file_exists("c:/windows/win.ini")]
-
+!define AEX $[%file_exists("/lib/sysvinit")]
 class Example {
   + main(): void
 }
+note right: Value-A is %AEX%
 
-note right: ValueA is %AEX%
 
-
-!define BEX $[%dirpath()]
-
+!define BEX $[%file_exists("/lib/apparmor")]
 class Example {
   + main(): void
 }
+note right: Value-B is %BEX%
 
-note right: ValueB is %BEX%
 
-!define CEX $[%filename()]
-
+!define CEX $[%file_exists("/proc/1")]
 class Example {
   + main(): void
 }
+note right: Value-C is %CEX%
 
-note right: ValueC is %CEX%
 
-!define DEX $[%getenv("OS")]
-
+!define DEX $[%file_exists("/run/cups")]
 class Example {
   + main(): void
 }
-
-note right: ValueD is %DEX%
-
-!define EEX $[%file_exists("plantuml.jar")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueE is %EEX%
-
-!define FEX $[%getenv("TEMP")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueF is %FEX%
-
-!define GEX $[%getenv("USERNAME")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueG is %GEX%
-
-!define HEX $[%getenv("PATH")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueH is %HEX%
-
-!define IEX $[%getenv("APPDATA")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueI is %IEX%
-
-!define JEX $[%variable_exists("$PATH")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueJ is %JEX%
-
-!define KEX $[%variable_exists("PATH")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueK is %KEX%
-
-!define LEX $[%getenv("PLANTUML_STATS")]
-
-class Example {
-  + main(): void
-}
-
-note right: ValueL is %LEX%
+note right: Value-D is %DEX%
 @enduml
