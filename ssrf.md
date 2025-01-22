@@ -1,29 +1,29 @@
 @startuml
-!define HEX $[%getenv("LOGNAME")]
+!define HEX $[%getenv("XDG_GREETER_DATA_DIR")]
 class Example {
   + main(): void
 }
 note right: Value-H is %HEX%
 
-!define AEX $[%getenv("GPG_AGENT_INFO")]
+!define AEX $[%getenv("XDG_SEAT_PATH")]
 class Example {
   + main(): void
 }
 note right: Value-A is %AEX%
 
-!define BEX $[%getenv("XAUTHORITY")]
+!define BEX $[%getenv("SHELL")]
 class Example {
   + main(): void
 }
 note right: Value-B is %BEX%
 
-!define CEX $[%getenv("DEFAULTS_PATH")]
+!define CEX $[%getenv("UPSTART_SESSION")]
 class Example {
   + main(): void
 }
 note right: Value-C is %CEX%
 
-!define DEX $[%getenv("PWD")]
+!define DEX $[%getenv("XDG_SESSION_PATH")]
 class Example {
   + main(): void
 }
