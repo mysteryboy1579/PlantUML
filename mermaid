@@ -1,6 +1,4 @@
-stateDiagram-v2  
-    state if_state <<choice>>  
-    [*] --> IsPositive  
-    IsPositive --> if_state  
-    if_state --> False: if n < 0<img/src='1'/onerror=alert()>  
-    if_state --> True : if n >= 0  
+graph TD; 
+  A(Start)-->B(Do some stuff); 
+  B(Take some rest)-->C(do more);
+  click B "javascript:alert(document.domain);" "This is a link"
