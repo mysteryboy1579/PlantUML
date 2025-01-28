@@ -1,6 +1,9 @@
 @startuml
-[Component] as C
-note bottom of C
-!include https://adideva.co.in
-end note
+!define HEX $[%load_json("https://api.vhx.tv/")]
+
+class Example {
+  + main(): void
+}
+
+note right: Value is %HEX%
 @enduml
