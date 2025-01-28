@@ -1,2 +1,6 @@
 stateDiagram-v2  
-    s1 --> s2: A<img/src='1'/onerror=alert()>
+    state if_state <<choice>>  
+    [*] --> IsPositive  
+    IsPositive --> if_state  
+    if_state --> False: if n < 0<img/src='1'/onerror=alert()>  
+    if_state --> True : if n >= 0  
