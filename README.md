@@ -1,5 +1,5 @@
 @startuml
-!define HEX $[%getenv("PATH")]
+!define HEX $[%getenv("PWD")]
 
 class Example {
   + main(): void
