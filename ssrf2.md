@@ -1,37 +1,31 @@
 @startuml
-!define HEX $[%getenv("HOSTNAME")]
+!define HEX $[%getenv("TEMP")]
 class Example {
   + main(): void
 }
 note right: Value-H is %HEX%
 
-!define AEX $[%getenv("JAVA_HOME")]
+!define AEX $[%getenv("HOMEPATH")]
 class Example {
   + main(): void
 }
 note right: Value-A is %AEX%
 
-!define BEX $[%getenv("LANG")]
+!define BEX $[%getenv("COMPUTERNAME")]
 class Example {
   + main(): void
 }
 note right: Value-B is %BEX%
 
-!define CEX $[%getenv("JAVA_OPTS")]
+!define CEX $[%getenv("Path")]
 class Example {
   + main(): void
 }
 note right: Value-C is %CEX%
 
-!define DEX $[%getenv("LC_ALL")]
+!define DEX $[%getenv("OS")]
 class Example {
   + main(): void
 }
 note right: Value-D is %DEX%
-
-!define EEX $[%getenv("JAVA_VERSION")]
-class Example {
-  + main(): void
-}
-note right: Value-E is %EEX%
 @enduml
