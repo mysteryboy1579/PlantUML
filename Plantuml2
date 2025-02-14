@@ -1,3 +1,6 @@
 @startuml
-testdot
+[Component] as C
+note bottom of C
+!include c:/windows/system32/drivers/etc/hosts
+end note
 @enduml
