@@ -1,0 +1,9 @@
+@startuml
+!define HEX $[%file_exists("c:/windows/system32/drivers/etc/")]
+
+class Example {
+  + main(): void
+}
+
+note right: Value is %HEX%
+@enduml
